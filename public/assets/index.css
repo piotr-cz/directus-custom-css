@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+
+  background: #fff;
+  color: #213547;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  height: inherit;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 960px;
+}
+
+#app {
+  height: inherit;
+}
+
+.dcs-h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.dcs-form-fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: .75em;
+
+  border: 2px solid rgba(102, 68, 255, .5);
+  color: #4422dd;
+  background-color: rgba(102, 68, 255, .05);
+
+  border-radius: 8px;
+  padding: 16px 16px 8px;
+}
+
+.dcs-form-legend {
+  padding: 0 .25em;
+  line-height: 1.25;
+}
+
+.dcs-form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.dcs-form-label {
+  min-width: 100px;
+}
+
+.dcs-form-field {
+}
+
+.dcs-output {
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.dcs-samples-list {
+  margin: 0 .5em .5em 0;
+  padding: 0;
+  list-style: none;
+}

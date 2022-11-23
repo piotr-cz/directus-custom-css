@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["DOM"],
+    "target": "ESNext"
+  },
+  "include": [
+    "public/assets/*.js"
+  ],
+  "references": [{ "path": "./jsconfig.node.json" }]
+}

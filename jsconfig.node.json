@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "composite": true,
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "checkJs": true,
+    "allowJs": true,
+    "lib": []
+  },
+  "include": [
+    "bin/*.js",
+    "public/assets/create-css.js"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@piotr-cz/directus-custom-css",
+  "version": "1.0.0-alpha.1",
+  "description": "Directus Custom CSS generator",
+  "author": "Piotr Konieczny <hello@piotr.cz> (https://www.piotr.cz/)",
+  "type": "module",
+  "files": [
+    "bin/",
+    "public/"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "directus",
+    "custom css"
+  ],
+  "bin": {
+    "directus-custom-css": "./bin/directus-custom-css"
+  },
+  "scripts": {
+    "start": "npx serve public --listen 3000 --single"
+  },
+  "engines": {
+    "node": ">= 14.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  },
+  "dependencies": {
+    "colortranslator": "1.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Directus Custom CSS generator</title>
+
+    <meta name="color-scheme" content="light" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Directus Custom CSS generator"
+    />
+
+    <script type="importmap">
+      {
+        "imports": {
+          "colortranslator": "https://cdn.jsdelivr.net/npm/colortranslator@1.9/esm/index.js"
+        }
+      }
+    </script>
+
+    <script type="module" crossorigin src="/assets/index.js"></script>
+    <link rel="stylesheet" href="/assets/index.css" />
+
+    <style id="custom-css"></style>
+  </head>
+  <body>
+    <div id="app">
+      <form name="form">
+        <fieldset class="dcs-form-fieldset">
+          <legend class="dcs-form-legend">
+            <div class="dcs-h1">
+              Directus Custom CSS generator
+            </div>
+            <div style="font-size: 14px; font-weight: 400;">
+              (See Directus Docs &gt; <a href="https://docs.directus.io/configuration/project-settings.html#branding-style" target="external">Branding &amp; Style</a> for more info)
+            </div>
+          </legend>
+          <div class="dcs-form-row">
+            <label class="dcs-form-label">Base color</label>
+            <input
+              class="dcs-form-field"
+              name="color"
+              type="color"
+              value="#6644FF"
+            />
+          </div>
+
+          <div class="dcs-form-row">
+            <label class="dcs-form-label">Custom CSS</label>
+            <output
+              class="dcs-form-field dcs-output"
+              name="output"
+              readonly
+            ></output>
+          </div>
+
+          <!--
+          <div class="dcs-form-row">
+            <span class="dcs-form-label">Samples</span>
+            <ul class="dcs-samples-list">
+              <li><span style="background-color: var(--primary-alt)">--primary-alt</span></li>
+              <li><span style="background-color: var(--primary-10)">--primary-10</span></li>
+              <li><span style="background-color: var(--primary-25)">--primary-25</span></li>
+              <li><span style="background-color: var(--primary-50)">--primary-50</span></li>
+              <li><span style="background-color: var(--primary-25)">--primary-25</span></li>
+              <li><span style="background-color: var(--primary-75)">--primary-75</span></li>
+              <li><span style="background-color: var(--primary-90)">--primary-90</span></li>
+
+              <li><span style="background-color: var(--primary)">--primary</span></li>
+
+              <li><span style="background-color: var(--primary-110)">--primary-110</span></li>
+              <li><span style="background-color: var(--primary-125)">--primary-125</span></li>
+              <li><span style="background-color: var(--primary-150)">--primary-150</span></li>
+              <li><span style="background-color: var(--primary-175)">--primary-175</span></li>
+              <li><span style="background-color: var(--primary-190)">--primary-190</span></li>
+            </ul>
+
+            <ul class="dcs-samples-list">
+              <li><span style="background-color: var(--v-button-background-color)">--v-button-background-color</span></li>
+              <li><span style="background-color: var(--v-button-background-color-hover)">--v-button-background-color-hover</span></li>
+              <li><span style="background-color: var(--sidebar-detail-color-active)">--sidebar-detail-color-active</span></li>
+            </ul>
+
+            <ul class="dcs-samples-list public-view">
+              <li><span style="background-color: var(--foreground-normal)">--foreground-normal</span></li>
+              <li><span style="background-color: var(--foreground-normal-alt)">--foreground-normal-alt</span></li>
+              <li><span style="background-color: var(--foreground-subdued)">--foreground-subdued</span></li>
+            </ul>
+          </div>
+          -->
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
