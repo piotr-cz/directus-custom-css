@@ -5,8 +5,8 @@
   "author": "Piotr Konieczny <hello@piotr.cz> (https://www.piotr.cz/)",
   "type": "module",
   "files": [
-    "bin/",
-    "public/"
+    "bin/**",
+    "src/**"
   ],
   "license": "MIT",
   "keywords": [
@@ -17,7 +17,7 @@
     "directus-custom-css": "./bin/directus-custom-css"
   },
   "scripts": {
-    "start": "npx serve public --listen 3000 --single"
+    "start": "npx serve public --listen 3000 --single --symlinks"
   },
   "engines": {
     "node": ">= 14.15.0"

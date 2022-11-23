@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-import createCss from '../public/assets/create-css.js'
+import createCss from '../src/index.js'
 
 /**
  * Usage:

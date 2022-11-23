@@ -1,4 +1,4 @@
-import createCss from './create-css.js'
+import createCss from './lib/index.js'
 
 /** @type {HTMLFormElement|null} */
 const formElement = document.querySelector('[name="form"]')
