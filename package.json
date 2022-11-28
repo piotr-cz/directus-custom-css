@@ -17,7 +17,7 @@
     "directus-custom-css": "./bin/directus-custom-css"
   },
   "scripts": {
-    "start": "npx serve public --listen 3000 --single --symlinks"
+    "start": "npx serve docs --listen 3000 --single --symlinks"
   },
   "engines": {
     "node": ">= 14.15.0"

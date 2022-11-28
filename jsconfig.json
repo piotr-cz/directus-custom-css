@@ -11,7 +11,7 @@
     "target": "ESNext"
   },
   "include": [
-    "public/assets/**/*.js",
+    "docs/assets/**/*.js",
     "src/*.js"
   ],
   "references": [{ "path": "./jsconfig.node.json" }]
