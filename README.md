@@ -30,4 +30,4 @@ See *Directus Docs > [Branding & Style](https://docs.directus.io/configuration/p
 1. Generate snippet
    ```console
    node bin/directus-custom-css.js '#ff0000'
- ```
+   ```
