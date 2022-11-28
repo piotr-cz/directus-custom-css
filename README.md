@@ -31,3 +31,7 @@ See *Directus Docs > [Branding & Style](https://docs.directus.io/configuration/p
    ```console
    node bin/directus-custom-css.js '#ff0000'
    ```
+
+### Similar projects
+
+- [A Theme Builder for Directus](https://themebuilder.thijmenheuvelink.nl/)
