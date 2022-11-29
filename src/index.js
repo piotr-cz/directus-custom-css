@@ -38,25 +38,25 @@ export default function createCss(colorHex) {
   const foregroundSubdued = createVariant(inputColorTranslator, -38, 30, 72) // hsl(213deg 30% 72%)
 
   return `
-body > * {
-  --primary-alt: ${format(primaryAlt)};
-  --primary-10: ${format(primary10)};
-  --primary-25: ${format(primary25)};
-  --primary-50: ${format(primary50)};
-  --primary-75: ${format(primary75)};
-  --primary-90: ${format(primary90)};
+#app, #main-content, body {
+  --primary-alt: ${format(primaryAlt)} !important;
+  --primary-10: ${format(primary10)} !important;
+  --primary-25: ${format(primary25)} !important;
+  --primary-50: ${format(primary50)} !important;
+  --primary-75: ${format(primary75)} !important;
+  --primary-90: ${format(primary90)} !important;
 
-  --primary: ${format(primary)};
+  --primary: ${format(primary)} !important;
 
-  --primary-110: ${format(primary110)};
-  --primary-125: ${format(primary125)};
-  --primary-150: ${format(primary150)};
-  --primary-175: ${format(primary175)};
-  --primary-190: ${format(primary190)};
+  --primary-110: ${format(primary110)} !important;
+  --primary-125: ${format(primary125)} !important;
+  --primary-150: ${format(primary150)} !important;
+  --primary-175: ${format(primary175)} !important;
+  --primary-190: ${format(primary190)} !important;
 
-  --v-button-background-color: ${format(vButtonBackgroundColor)};
-  --v-button-background-color-hover: ${format(vButtonBackgroundColorHover)};
-  --sidebar-detail-color-active: ${format(sidebarDetailColorActive)};
+  --v-button-background-color: ${format(vButtonBackgroundColor)} !important;
+  --v-button-background-color-hover: ${format(vButtonBackgroundColorHover)} !important;
+  --sidebar-detail-color-active: ${format(sidebarDetailColorActive)} !important;
 }
 
 .public-view {
